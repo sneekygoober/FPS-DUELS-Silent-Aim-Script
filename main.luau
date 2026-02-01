@@ -61,7 +61,7 @@ local getTarget = function()
 
         local v, nTPart = isVisible(tPart);
         if not v then
-            v, nTPart = isVisible(char.PrimaryPart or char:FindFirstChild("Hitbox"));
+            v, nTPart = isVisible(char.PrimaryPart or char:FindFirstChild("HumanoidRootPart"));
             if not v then continue; end;
         end;
 
