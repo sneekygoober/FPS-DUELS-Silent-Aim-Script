@@ -12,7 +12,7 @@ end;
 local RF: ReplicatedFirst = cloneref(game:GetService("ReplicatedFirst"));
 local Players = game:GetService("Players");
 
-local plr = Players.LocalPlayer;
+local plr: Player = cloneref(Players).LocalPlayer;
 local cam = workspace.CurrentCamera;
 
 local mouse = plr:GetMouse();
