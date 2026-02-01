@@ -1,2 +1,3 @@
 # FPS-DUELS-Silent-Aim-Script
-This is a basic silent aim with no UI for https://www.roblox.com/games/140636953470579/DUELS.  Please note that your executor must at least support hookfunction and require.
+This script is open-source and free. Anyone can modify/use this script without restrictions.
+You can also view this script over at [scriptblox.com](https://scriptblox.com/script/FPS-DUELS-Silent-Aim-Keyless-98213) or [haxhell.com](https://haxhell.com/scripts/fps-duels-fps-duelssilent-aim-keyless).
