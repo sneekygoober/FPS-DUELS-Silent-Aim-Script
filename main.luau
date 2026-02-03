@@ -77,7 +77,7 @@ local getTarget = function()
     return cPart;
 end;
 
-local old; old = clonefunction(hookfunction(Raycast.Raycast, newcclosure(function(_, __, args, ___)
+local old; old = clonefunction(hookfunction(rawget(Raycast, "Raycast"), newcclosure(function(_, __, args, ___)
     local c = getTarget();
     if c and rawget(args, "direction") and rawget(args, "origin") then
         local _args = args;
